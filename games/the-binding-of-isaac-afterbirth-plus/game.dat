@@ -1,0 +1,15 @@
+title = "The Binding of Isaac: Afterbirth+"
+description = "The Binding of Isaac: Afterbirth+ is an independent roguelike video game designed by Edmund McMillen and developed and published by Nicalis."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "010021C000B6A000"
+region = "usa"
+release_date = "2017-03-17"
+
+title = "0100F8A004458000"
+region = "eur"
+release_date = "2017-03-17"

@@ -1,0 +1,19 @@
+title = "Puyo Puyo Tetris"
+description = "Puyo Puyo Tetris is a puzzle video game developed by Sonic Team and published by Sega. The game is a crossover between the Puyo Puyo series and the Tetris franchise, and features various gameplay modes incorporating both aspects."
+github_issues = []
+needs_system_files = false
+needs_shared_font = true
+game_type = "switch"
+
+[[ releases ]]
+title = "010073C001D5E000"
+region = "usa"
+release_date = "2017-04-25"
+
+title = "0100F3D001DEE000"
+region = "eur"
+release_date = "2017-04-28"
+
+title = "010053D0001BE000"
+region = "jpn"
+release_date = "2017-03-03"

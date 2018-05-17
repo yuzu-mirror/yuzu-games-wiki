@@ -1,0 +1,11 @@
+title = "1-2-Switch!"
+description = "1-2-Switch is a party game developed and published by Nintendo. The game extensively uses the system's Joy-Con controllers, with players facing each other performing various minigames."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "01000320000CC000"
+region = "all"
+release_date = "2017-03-03"

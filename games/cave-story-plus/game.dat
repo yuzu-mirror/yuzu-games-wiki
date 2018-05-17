@@ -1,0 +1,15 @@
+title = "Cave Story+"
+description = "Cave Story is a metroidvania platform-adventure video game. It was developed over five years by Daisuke Pixel Amaya in his free time. Cave Story features 2D platform mechanics and is reminiscent of the classic games Amaya played in his youth. Cave Story is considered by many as the quintessential indie game, based on its one-man development team and influence on the gaming world."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100B7D0022EE000"
+region = "usa"
+release_date = "2017-06-20"
+
+title = "0100B7D0022EE000"
+region = "eur"
+release_date = "2017-07-20"
