@@ -1,15 +1,13 @@
 {
   "directory": "../games",
   "regions": ["jpn", "usa", "eur", "aus", "chn", "kor", "twn", "all"],
-  "gametypes": ["3ds", "vc", "dsi", "eshop"],
-  "vc_systems": ["nes", "snes", "gb", "gbc", "gba", "gg"],
+  "gametypes": ["switch", "eshop"],
 
-  "permitted_files": ["boxart.png", "icon.png", "game.dat"],
+  "permitted_files": ["icon.png", "game.dat"],
   "permitted_dirs": ["screenshots", "savefiles"],
 
-  "boxart": { "filename": "boxart.png", "sizes": [{"width": 328, "height": 300}, {"width": 500, "height": 300}], "type": "image/png"},
-  "icon": { "filename": "icon.png", "sizes": [{"width": 48, "height": 48}], "type": "image/png"},
-  "screenshots": { "dirname": "screenshots", "sizes": [{"width": 400, "height": 480}], "type": "image/png"},
+  "icon": { "filename": "icon.png", "sizes": [{"width": 256, "height": 256}], "type": "image/png"},
+  "screenshots": { "dirname": "screenshots", "sizes": [{"width": 1280, "height": 720}], "type": "image/png"},
   "saves": { "dirname": "savefiles"},
   "data": { "filename": "game.dat" }
 }
