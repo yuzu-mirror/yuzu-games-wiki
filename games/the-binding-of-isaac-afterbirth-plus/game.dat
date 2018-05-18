@@ -10,6 +10,7 @@ title = "010021C000B6A000"
 region = "usa"
 release_date = "2017-03-17"
 
+[[ releases ]]
 title = "0100F8A004458000"
 region = "eur"
 release_date = "2017-03-17"

@@ -10,10 +10,12 @@ title = "0100574002AF4000"
 region = "jpn"
 release_date = "2017-08-24"
 
+[[ releases ]]
 title = "0100574002AF4000"
 region = "eur"
 release_date = "2017-09-29"
 
+[[ releases ]]
 title = "0100574002AF4000"
 region = "usa"
 release_date = "2017-09-29"

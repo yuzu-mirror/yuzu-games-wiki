@@ -214,59 +214,6 @@ function validateTOML(path) {
     } else {
         validationError("No releases.")
     }
-
-    let maxCompatibility = 999;
-
-    // Check each testcase individually
-    if (tomlDoc["testcases"] !== undefined) {
-        section = tomlDoc["testcases"];
-        section.forEach(testcase => {
-            validateContents(testcase, "title", field => {
-                if (field.length !== 16) {
-                    validationError(`Testcase: Game title ID has an invalid length`);
-                } else if (!field.match(/^([A-Z0-9]){16}$/)) {
-                    validationError(`Testcase: Game title ID is not a hexadecimal ID`);
-                }
-            });
-
-            validateNotEmpty(testcase, "compatibility");
-            if (testcase["compatibility"] !== undefined) {
-                let compat = parseInt(testcase["compatibility"]);
-                if (compat < maxCompatibility) {
-                    maxCompatibility = compat;
-                }
-            }
-
-            validateIsDate(testcase, "date");
-            validateContents(testcase, "version", test => {
-                if (test.length !== 12) {
-                    validationError(`Testcase: Version is of incorrect length`);
-                } else if (!test.startsWith("HEAD-")) {
-                    validationError(`Testcase: Unknown version commit source`);
-                }
-            });
-            validateNotEmpty(testcase, "author");
-
-            validateNotEmpty(testcase, "cpu");
-            validateNotEmpty(testcase, "gpu");
-            validateNotEmpty(testcase, "os");
-        });
-        
-        // Validate dates are properly ordered
-        section.reduce(function(previousValue, currentValue) {
-            if (typeof previousValue === "undefined" || previousValue.date <= currentValue.date) {
-                return currentValue;
-            }
-            validationError("Test case dates are not properly sorted in ascending order.");
-        });
-    }
-
-    // We only check these if we have a known test result (we cannot know if a game needs
-    //  resources if it doesn't even run!)
-    if (maxCompatibility < 5) {
-        validateIsBoolean(tomlDoc, "needs_system_files");
-        validateIsBoolean(tomlDoc, "needs_shared_font");
-    }
 }
 
 /// Validates the basic structure of a save game's TOML. Assumes it exists.
@@ -370,7 +317,9 @@ getDirectories(config.directory).forEach(function (game) {
         });
 
         // Verify the game's boxart.
-        validateImage(`${inputDirectoryGame}/${config.boxart.filename}`, config.boxart);
+        if (config.boxart) {
+            validateImage(`${inputDirectoryGame}/${config.boxart.filename}`, config.boxart);
+        }
 
         // Verify the game's image.
         validateImage(`${inputDirectoryGame}/${config.icon.filename}`, config.icon);
@@ -380,7 +329,7 @@ getDirectories(config.directory).forEach(function (game) {
 
         // Verify the game's screenshots.
         validateDirImages(`${inputDirectoryGame}/${config.screenshots.dirname}`,
-                            config.screenshots);
+                        config.screenshots);
 
         // Verify the game's save files.
         validateSaves(`${inputDirectoryGame}/${config.saves.dirname}`);
