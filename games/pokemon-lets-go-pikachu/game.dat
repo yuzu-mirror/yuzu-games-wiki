@@ -1,0 +1,11 @@
+title = "Pokemon: Let's Go, Pikachu!"
+description = "Take your Pokémon journey to the Kanto region with your steadfast partner, Pikachu, to become a top Pokémon trainer as you battle other trainers."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "N/A"
+region = "all"
+release_date = "2018-11-16"
