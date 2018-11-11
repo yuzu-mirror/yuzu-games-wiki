@@ -1,0 +1,16 @@
+title = "Fire Emblem Warriors"
+description = "Fire Emblem Warriors is a hack and slash role-playing video game developed by Omega Force and Team Ninja, and published by Koei Tecmo in Japan and Nintendo internationally for the Nintendo Switch and New Nintendo 3DS. Fire Emblem Warriors is a hack-and-slash action role-playing game in which players take the role of multiple characters including original characters Rowan and Lianna, and characters from several Fire Emblem games."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100EAE003A5A000"
+region = "jpn"
+release_date = "2017-09-28"
+
+[[ releases ]]
+title = "0100F15003E64000"
+region = "all"
+release_date = "2017-10-20"

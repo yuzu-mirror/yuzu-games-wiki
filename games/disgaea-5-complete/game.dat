@@ -1,0 +1,21 @@
+title = "Disgaea 5 Complete"
+description = "Disgaea 5 is a 2015 tactical role-playing video game for the PlayStation 4 and the sixth in the Disgaea series by Nippon Ichi Software. A port for the Nintendo Switch was released on March 3, 2017 in Japan as a launch title for the system. The central story of the game is centred on the idea of revenge. The evil demon emperor Void Dark devastates numerous Netherworlds after coming to power, with the help of an army of over one million soldiers known as The Lost."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100E5F0000C0000"
+region = "jpn"
+release_date = "2017-03-03"
+
+[[ releases ]]
+title = "01005700031AE000"
+region = "usa"
+release_date = "2017-05-23"
+
+[[ releases ]]
+title = "01005700031AE000"
+region = "eur"
+release_date = "2017-05-26"

@@ -1,0 +1,11 @@
+title = "Celeste"
+description = "Celeste is a platforming video game by Canadian video game developers Matt Thorson and Noel Berry. The game was originally created as a prototype in four days during a game jam, and later expanded into a full release. Celeste is a platform game in which players control a girl named Madeline as she makes her way up a mountain while avoiding various deadly obstacles."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "01002B30028F6000"
+region = "all"
+release_date = "2018-01-25"

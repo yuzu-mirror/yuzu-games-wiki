@@ -1,0 +1,11 @@
+title = "Minecraft: Story Mode - The Complete Adventure"
+description = "Minecraft: Story Mode - The Complete Adventure is an episodic point-and-click graphic adventure video game developed and published by Telltale Games, based on the sandbox video game Minecraft. The game centers around a new character named Jesse, who can be either male or female, as they and their allies attempt to save their world by defeating the Wither Storm."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "010059C002AC2000"
+region = "all"
+release_date = "2017-08-22"
