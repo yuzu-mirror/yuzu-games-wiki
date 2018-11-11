@@ -1,0 +1,11 @@
+title = "Splatoon 2"
+description = "A team-based third-person shooter in which players control characters known as Inklings and use colored ink to attack opponents and clear goals. Inklings can morph between humanoid form, during which they can fire ink with their weapons, and squid form, which allows them to swim through ink of their own color in order to move quickly and replenish ink supplies."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "01003BC0000A0000"
+region = "usa"
+release_date = "2017-07-21"
