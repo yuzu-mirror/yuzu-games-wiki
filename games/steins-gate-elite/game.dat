@@ -1,0 +1,11 @@
+title = "Steins;Gate Elite"
+description = "Steins;Gate Elite is a visual novel video game in the Science Adventure series. It was developed by 5pb. for PlayStation 4, PlayStation Vita, Nintendo Switch and Microsoft Windows. It is an updated version of the 2009 game Steins;Gate, and is fully animated, using footage from the anime adaptation of the original game along with newly produced animation by White Fox."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100F160092D2000"
+region = "jpn"
+release_date = "2018-09-20"
