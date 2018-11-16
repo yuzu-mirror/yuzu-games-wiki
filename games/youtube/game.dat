@@ -1,0 +1,11 @@
+title = "Youtube"
+description = "Kick back, relax and enjoy all of YouTube on your Nintendo Switch. There's entertainment for everyone, like music videos, movies, gaming livestreams and the latest viral sensations. Explore a world of videos with personalised recommendations and easy access to your channel subscriptions. So grab your friends, family and your controller, and enjoy YouTube together."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "01003A400C3DA000"
+region = "all"
+release_date = "2018-11-08"

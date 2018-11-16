@@ -1,0 +1,11 @@
+title = "Nintendo Entertainment System - Nintendo Switch Online"
+description = "Enjoy access to a growing library of classic NES games anytime, anywhere, right on your Nintendo Switch."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100D870045B6000"
+region = "all"
+release_date = "2018-09-19"

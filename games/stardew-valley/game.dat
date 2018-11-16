@@ -1,0 +1,11 @@
+ title = "Stardew Valley"
+ description = "You’ve inherited your grandfather’s old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won’t be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community centre, once the town’s most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore Stardew Valley to greatness!"
+ github_issues = []
+ needs_system_files = false
+ needs_shared_font = false
+ game_type = "switch"
+ 
+ [[ releases ]]
+title = "0100E65002BB8000"
+region = "all"
+release_date = "2017-10-05"
