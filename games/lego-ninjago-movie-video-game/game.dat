@@ -1,0 +1,11 @@
+title = "The LEGO® NINJAGO® Movie Video Game"
+description = "The LEGO Ninjago Movie Videogame is a LEGO Ninjago: Masters of Spinjitzu video game that was released on September 22, 2017. It takes place within the 2017 film of the same name."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "01007FC00206E000"
+region = "all"
+release_date = "2018-10-20"
