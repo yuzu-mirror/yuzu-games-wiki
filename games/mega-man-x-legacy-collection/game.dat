@@ -1,0 +1,11 @@
+title = "Mega Man X Legacy Collection"
+description = "Mega Man X Legacy Collection is a compilation of Mega Man video games developed by Capcom"
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "01005C60086BE000"
+region = "usa"
+release_date = "2018-07-24"
