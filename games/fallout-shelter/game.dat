@@ -1,0 +1,11 @@
+title = "Fallout Shelter"
+description = "Fallout Shelter is a free-to-play simulation video game developed by Bethesda Game Studios, with assistance by Behaviour Interactive, and published by Bethesda Softworks."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "010043500A17A000"
+region = "all"
+release_date = "2018-06-10"
