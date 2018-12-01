@@ -1,0 +1,11 @@
+title = "Snipperclips Plus - Cut it Out, Together!"
+description = "Hey, cut it out! No, really! In this action-puzzle game, paper pals Snip and Clip must cut each other up to overcome tricky obstacles…or just to laugh their heads off (sometimes literally). Partner up with friends or family to cut the heroes into the right shapes, interact with objects, and solve a world of imaginative puzzles."
+github_issues = [1820]
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "01008E20047DC000"
+region = "eur"
+release_date = "2018-03-03"
