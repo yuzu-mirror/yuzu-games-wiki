@@ -1,0 +1,11 @@
+title = "Dragon Ball Xenoverse 2"
+description = "Dragon Ball Xenoverse 2 is a fighting role-playing video game developed by Dimps and published by Bandai Namco Entertainment based on the Dragon Ball franchise."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "010078D000F88000"
+region = "all"
+release_date = "2017-09-22"
