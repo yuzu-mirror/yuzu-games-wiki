@@ -1,0 +1,11 @@
+title = "Super Bomberman R"
+description = "Super Bomberman R is an action-maze game developed by Konami and HexaDrive, and is part of the Bomberman series."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "01007AD00013E000"
+region = "all"
+release_date = "2017-03-03"
