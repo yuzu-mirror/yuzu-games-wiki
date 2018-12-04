@@ -1,0 +1,11 @@
+title = "Captain Toad: Treasure Tracker"
+description = "Captain Toad: Treasure Tracker is an action puzzle video game developed and published by Nintendo for the Wii U. It was later ported to the Nintendo Switch with an enhanced version adding new levels and co-op multiplayer."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "01009BF0072D4000"
+region = "all"
+release_date = "2018-08-13"

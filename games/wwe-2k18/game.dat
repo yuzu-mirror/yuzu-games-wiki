@@ -1,0 +1,11 @@
+title = "WWE 2K18"
+description = "WWE 2K18 is a professional wrestling video game developed by Yuke's and Visual Concepts, and published by 2K Sports. It is the nineteenth installment in the WWE game series."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "010009800203E000"
+region = "all"
+release_date = "2017-12-06"

@@ -1,0 +1,11 @@
+title = "Mario Kart 8 Deluxe"
+description = "Mario Kart 8 is a kart racing video game and the eighth major installment in the Mario Kart series, developed and published by Nintendo for their Wii U home video game console. It was later released on the Nintendo Switch in an enhanced version with additionnal content, gameplay tweaks and all previous released DLC."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100152000022000"
+region = "all"
+release_date = "2017-04-28"
