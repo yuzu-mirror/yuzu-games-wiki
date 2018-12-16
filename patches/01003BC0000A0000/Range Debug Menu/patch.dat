@@ -1,0 +1,4 @@
+title = "Range Debug Menu"
+description = "Sends the game to the debug menu when trying to access the test range."
+author = "khang06"
+types = ["IPS"]
