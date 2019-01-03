@@ -1,0 +1,11 @@
+title = "Has-Been Heroes"
+description = "Has-Been Heroes is an action video game developed by Frozenbyte and published by GameTrust. The game features a mixture of turn-based strategy and real-time strategy mechanics."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100E29001298000"
+region = "all"
+release_date = "2017-03-28"

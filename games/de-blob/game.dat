@@ -1,0 +1,11 @@
+title = "De Blob"
+description = "De blob is a platformer that brings to mind the mario franchise. You stroll around chroma city touching walls to paint them . you have a certain amount of hit points and you have a color that you paint with. You dont paint with a brush you are a blob(hence the name) full of paint that touchs walls to paint them."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100D0A009310000"
+region = "all"
+release_date = "2018-06-26"

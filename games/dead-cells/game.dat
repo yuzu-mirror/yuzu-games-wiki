@@ -1,0 +1,12 @@
+title = "Dead Cells"
+description = "Dead Cells is a roguelike-metroidvania video game developed and published by Motion Twin.
+The player takes the role of a body of cells that take control of a corpse in a dungeon, through which they must fight their way out. "
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100646009FBE000"
+region = "all"
+release_date = "2018-08-07"

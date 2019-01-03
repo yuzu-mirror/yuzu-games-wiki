@@ -1,0 +1,11 @@
+title = "Hot Springs Story"
+description = "Hot Springs Story is a hot spring business simulation video game developed and published by Kairosoft."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "010090B00B1F0000"
+region = "all"
+release_date = "2018-10-11"

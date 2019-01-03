@@ -1,0 +1,11 @@
+title = "LEGO® Worlds"
+description = "Lego Worlds is a Lego-themed sandbox game developed by Traveller's Tales and published by Warner Bros. Interactive Entertainment. The game allows players to build constructions in a 3D procedurally generated world."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100838002AEA000"
+region = "all"
+release_date = "2017-09-05"

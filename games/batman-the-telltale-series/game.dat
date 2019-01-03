@@ -1,0 +1,11 @@
+title = "Batman: The Telltale Series"
+description = "Batman: The Telltale Series is an episodic point-and-click graphic adventure video game developed and published by Telltale Games and distributed by Warner Bros. Interactive Entertainment under its DC Entertainment label."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100011005D92000"
+region = "all"
+release_date = "2017-11-17"

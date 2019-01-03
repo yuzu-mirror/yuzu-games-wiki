@@ -1,0 +1,11 @@
+title = "Mini Metro"
+description = "Mini Metro is a puzzle strategy video game developed by indie development team Dinosaur Polo Club. Players are tasked with constructing an efficient rail transit network for a rapidly growing city."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100091008272000"
+region = "all"
+release_date = "2018-08-30"

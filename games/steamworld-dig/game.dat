@@ -1,0 +1,11 @@
+title = "SteamWorld Dig"
+description = "SteamWorld Dig is a platform action-adventure game created by Swedish video game developer Image & Form. The objective of the game is to dig through Tumbleton's mine, which also involves solving puzzles and platforming to avoid traps and enemies."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "01009320084A4000"
+region = "all"
+release_date = "2018-02-01"

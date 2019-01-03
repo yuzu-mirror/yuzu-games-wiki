@@ -1,0 +1,11 @@
+title = "Super Smash Bros. Ultimate"
+description = "Super Smash Bros. Ultimate is a crossover fighting game developed by Bandai Namco Studios and Sora Ltd. and published by Nintendo for the Nintendo Switch. It is the fifth installment in the Super Smash Bros. series, succeeding Super Smash Bros. for Nintendo 3DS and Wii U. The game follows the series' traditional style of gameplay: controlling one of various characters, players must use differing attacks to weaken their opponents and knock them out of an arena. It features a wide variety of game modes, including a campaign for a single-player and multiplayer versus modes. Ultimate includes every playable character from previous Super Smash Bros. games—ranging from Nintendo's mascots to characters from third-party franchises—and several newcomers."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "01006A800016E000"
+region = "all"
+release_date = "2018-12-07"

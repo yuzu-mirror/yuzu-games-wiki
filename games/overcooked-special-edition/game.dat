@@ -1,0 +1,11 @@
+title = "Overcooked Special Edition"
+description = "Overcooked is a cooking simulation game developed by Ghost Town Games and published by Team17. In a local cooperative experience, players control a number of chefs in kitchens filled with various obstacles and hazards to rapidly prepare meals to specific orders under a time limit."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "01009B900401E000"
+region = "all"
+release_date = "2017-07-27"

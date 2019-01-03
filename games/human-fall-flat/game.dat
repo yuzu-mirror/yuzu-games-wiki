@@ -1,0 +1,11 @@
+title = "Human: Fall Flat"
+description = "Human: Fall Flat is a physics puzzle game developed by No Brakes Games and published by Curve Digital where players play a customizable human, referred to in-game as Bob. Bob has no superpowers; he is purely human."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "01000CA004DCA000"
+region = "all"
+release_date = "2017-12-07"

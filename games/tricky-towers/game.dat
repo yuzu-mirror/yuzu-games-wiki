@@ -1,0 +1,11 @@
+title = "Tricky Towers"
+description = "Tricky Towers is a physics based tower building game puzzle video game that uses a form of block-stacking problem as the central game mechanic."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "010015F005C8E000"
+region = "all"
+release_date = "2018-10-11"

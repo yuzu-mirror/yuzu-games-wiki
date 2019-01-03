@@ -1,0 +1,11 @@
+title = "Shovel Knight: Specter of Torment"
+description = "Shovel Knight: Specter of Torment is the action-packed prequel to Shovel Knight!"
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "01001180021FA000"
+region = "all"
+release_date = "2017-03-03"

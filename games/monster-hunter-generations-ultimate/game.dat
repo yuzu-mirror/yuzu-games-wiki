@@ -1,0 +1,11 @@
+title = "Monster Hunter Generations Ultimate"
+description = "Monster Hunter Generations is an action role-playing video game developed and published by Capcom for the Nintendo 3DS."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100770008DD8000"
+region = "all"
+release_date = "2018-08-28"

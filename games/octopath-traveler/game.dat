@@ -1,0 +1,16 @@
+title = "Octopath Traveler"
+description = "Octopath Traveler is a turn-based role-playing video game developed by Square Enix, in collaboration with Acquire, and published by Nintendo for the Nintendo Switch. Octopath Traveler is a role-playing game that sports a graphical aesthetic known as HD-2D. The game puts players in the role of one of eight adventurers, each of whom begins their journey in different ways. Each character comes from different parts of the world, each of which determines their job or attribute."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "010057D006492000"
+region = "all"
+release_date = "2018-07-13"
+
+[[ releases ]]
+title = "0100E66006406000"
+region = "jpn"
+release_date = "2018-07-13"

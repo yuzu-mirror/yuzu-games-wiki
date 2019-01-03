@@ -1,0 +1,11 @@
+title = "Bleed 2"
+description = "Bleed 2 is an action-oriented platform video game developed by Canadian indie studio Bootdisk Revolution. It's the second game in the Bleed series"
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100A48008AE8000"
+region = "all"
+release_date = "2017-03-08"

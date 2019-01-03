@@ -1,0 +1,16 @@
+title = "L.A. Noire"
+description = "L.A. Noire is a neo-noir detective action-adventure video game developed by Team Bondi and published by Rockstar Games. L.A. Noire is set in Los Angeles in 1947 and challenges the player, controlling a Los Angeles Police Department (LAPD) officer, to solve a range of cases across five divisions."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100830004FB6000"
+region = "all"
+release_date = "2017-11-14"
+
+[[ releases ]]
+title = "01003DC00793A000"
+region = "jpn"
+release_date = "2017-11-14"

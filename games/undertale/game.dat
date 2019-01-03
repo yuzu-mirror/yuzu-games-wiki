@@ -1,0 +1,11 @@
+title = "Undertale"
+description = "Undertale is a role-playing video game created by American indie developer Toby Fox. Players control a child who has fallen into the Underground, a large, secluded region under the surface of the Earth, separated by a magic barrier. The player meets various monsters during a quest to return to the surface, mainly through the combat system; the player navigates through mini-bullet hell attacks by the opponent, and can opt to pacify or subdue monsters in order to spare them instead of murdering them. These choices affect the game, with the dialogue, characters, and story changing based on outcomes."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "010080B00AD66000"
+region = "all"
+release_date = "2018-09-18"

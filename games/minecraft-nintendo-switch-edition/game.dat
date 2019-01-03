@@ -1,0 +1,11 @@
+title = "Minecraft: Nintendo Switch Edition"
+description = "Minecraft is a 2011 sandbox video game created by Swedish game developer Markus Persson and later developed by Mojang. The game allows players to build with a variety of different blocks in a 3D procedurally generated world, requiring creativity from players."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "01006BD001E06000"
+region = "all"
+release_date = "2017-05-11"
