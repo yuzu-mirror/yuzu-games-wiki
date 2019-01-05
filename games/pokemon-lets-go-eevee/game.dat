@@ -1,7 +1,7 @@
 title = "Pokemon: Let's Go, Eevee!"
 description = "Pokemon: Let's Go, Eevee! is a role-playing video game that was developed by Game Freak and published by The Pokemon Company and Nintendo for the Nintendo Switch. The game is the first installment of the main Pokemon RPG series for the Nintendo Switch. It is a enhanced remake of the 1998 video game Pokemon Yellow."
 wiki_override = "pokemon-lets-go"
-github_issues = []
+github_issues = [1935]
 needs_system_files = false
 needs_shared_font = false
 game_type = "switch"
