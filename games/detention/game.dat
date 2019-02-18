@@ -1,0 +1,12 @@
+title = "Detention"
+description = "The world is not ready for the likes of us.
+Detention is a unique atmospheric horror game heavily influenced by Taiwanese/East Asian culture, religious elements and mythology. Based on the 1960s Taiwan under martial law, in this 2D atmospheric horror side-scroller, the player control characters who venture into the school beset by hostile supernatural events to uncover stories behind the haunted place. Incorporated the game provided players with unique graphics and gaming experience."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100730007A9C000"
+region = "all"
+release_date = "2018-12-30"
