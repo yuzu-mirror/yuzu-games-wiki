@@ -1,0 +1,11 @@
+title = "Hollow Knight"
+description = "An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, all in a classic, hand-drawn 2D style."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100633007D48000"
+region = "all"
+release_date = "2018-06-12"

@@ -1,0 +1,11 @@
+title = "Super One More Jump"
+description = "Super One More Jump is a hand-crafted, frantic, one touch arcade platformer. Simple to learn one button controls. Hard to master levels. Test your muscle memory, concentration and sanity!"
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100284007D6C000"
+region = "all"
+release_date = "2018-01-25"

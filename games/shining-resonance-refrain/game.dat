@@ -1,0 +1,11 @@
+title = "Shining Resonance Refrain"
+description = "Play as Yuma Ilvern and stop the Empire from exploiting the power of the ancient dragons, including the soul of the Shining Dragon within you. With the help of your friends, realize your destiny, save Astoria, and unleash the strength you've always had locked away."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "01009A5009A9E000"
+region = "all"
+release_date = "2018-07-10"

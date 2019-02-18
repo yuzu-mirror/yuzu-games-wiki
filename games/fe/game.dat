@@ -1,0 +1,11 @@
+title = "Fe"
+description = "Fe is a new type of platform adventure on Nintendo Switch where the story is up to you to discover, without handholding, told wordlessly through the discoveries you make during gameplay."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100D2600736A000"
+region = "all"
+release_date = "2018-02-16"

@@ -1,0 +1,11 @@
+title = "I Am Setsuna"
+description = "To maintain peace, once a decade, a sacrifice was offered to a fiend on the island. However, one year, the fiend grew violent before the next sacrifice was due. Those living on the island were afraid and tried to calm the fiend by offering a sacrifice: Setsuna, chosen because of her powers of enchantment. Setsuna must leave with her safeguards for the farthest land, where the ceremony of sacrifice will be held."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100849000BDA000"
+region = "all"
+release_date = "2017-03-03"

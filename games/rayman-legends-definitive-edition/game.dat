@@ -1,0 +1,11 @@
+title = "Rayman Legends Definitive Edition"
+description = "Rayman, Globox, and the Teensies are off wandering through an enchanted forest when they discover a mysterious tent filled with a series of captivating paintings. As they look more closely, they notice each painting seems to tell the story of a mythical world. While focusing on a painting that shows a medieval land, they are suddenly sucked into the painting, entering the world, and the adventure begins. The gang must run, jump, and fight their way through each world to save the day and discover the secrets of every legendary painting."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "01005FF002E2A000"
+region = "all"
+release_date = "2018-09-12"

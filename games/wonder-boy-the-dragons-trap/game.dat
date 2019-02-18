@@ -1,0 +1,11 @@
+title = "Wonder Boy The Dragon's Trap"
+description = "Boasting beautiful, hand-drawn animations and a re-orchestrated soundtrack, the cult classic returns with a unique blend of exploration, action, and adventure! Cursed into a half-human, half-lizard monstrosity by the Meka-Dragon, you are in search for a cure! The only way you can return to human form is to find the Salamander Cross, a magical item with the power to remove curses..."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100A6300150C000"
+region = "all"
+release_date = "2017-05-18"

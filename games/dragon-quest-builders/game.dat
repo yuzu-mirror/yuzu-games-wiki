@@ -1,0 +1,11 @@
+title = "Dragon Quest Builders"
+description = "As the legendary Builder, you'll construct rooms, towns, and defenses while fighting monsters. In Terra Incognita, build freely, share creations online, battle in an arena, and access exclusive content to the Nintendo Switch™ version of the game!"
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "010008900705C000"
+region = "all"
+release_date = "2018-02-09"
