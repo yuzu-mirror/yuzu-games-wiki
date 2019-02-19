@@ -1,0 +1,4 @@
+title = "Dev Menu (v1.00)"
+description = "Pressing minus will give you access to the game's debug menu. Requires the base version of the game, which is v1.00."
+author = "SuperSonic16"
+types = ["IPSwitch"]

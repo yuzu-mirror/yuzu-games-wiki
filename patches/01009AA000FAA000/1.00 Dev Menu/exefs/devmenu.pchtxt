@@ -1,0 +1,12 @@
+# For use on Sonic Mania v1.00 only
+
+@nsobid-E3D99D48B8F09DF8D60B2030235311DF
+
+@flag offset_shift 0x100
+
+// Dev Menu - Press Minus to activate
+# Made by SuperSonic16, tested by Slashiee
+# Thanks yuzu! <3
+
+@enabled
+00209F7C D503201F
