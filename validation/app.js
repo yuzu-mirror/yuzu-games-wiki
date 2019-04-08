@@ -141,81 +141,6 @@ function validateFileExists(dir) {
     return true;
 }
 
-/// Validates a TOML document
-function validateTOML(path) {
-    if (fs.existsSync(path) === false) {
-        validationError(`TOML was not found at ${path}.`);
-        return;
-    }
-
-    let rawContents = fs.readFileSync(path);
-    let tomlDoc;
-    try {
-        tomlDoc = toml.parse(rawContents);
-    } catch (e) {
-        validationError("TOML parse error (" + e.line + "): " + e.message);
-        return;
-    }
-
-    // Check the global header section
-    validateNotEmpty(tomlDoc, "title");
-    validateNotEmpty(tomlDoc, "description");
-    if (tomlDoc["github_issues"] !== undefined) {
-        validateContents(tomlDoc, "github_issues", field => {
-            if (Array.isArray(field) === false) {
-                validationError("Github issues field is not an array!")
-            } else {
-                // Validate each individual entry
-                field.forEach(elem => {
-                    if (typeof elem !== "number") {
-                        validationError("Github issues entry is not a number!")
-                    }
-                });
-            }
-        });
-    }
-
-    if (tomlDoc["gametypes"] !== undefined) {
-        validateContents(tomlDoc, "gametypes", field => {
-            if (config.gametypes.indexOf(field) === -1) {
-                validationError(`Could not find gametype \"${field}\"!`);
-            }
-
-            if (field === "vc") {
-                validateContents(tomlDoc, "vc_system", field => {
-                    if (config.vc_systems.indexOf(field) === -1) {
-                        validationError(`Could not find VC console \"${field}\"!`);
-                    }
-                });
-            }
-        });
-    }
-
-    let section;
-
-    // Check each release individually
-    if (tomlDoc["releases"] !== undefined) {
-        section = tomlDoc["releases"];
-        section.forEach(release => {
-            validateContents(release, "title", field => {
-                if (field.length !== 16) {
-                    validationError(`Release: Game title ID has an invalid length`);
-                } else if (!field.match(/^([A-Z0-9]){16}$/)) {
-                    validationError(`Release: Game title ID is not a hexadecimal ID`);
-                }
-            });
-            validateContents(release, "region", field => {
-                if (config.regions.indexOf(field) === -1) {
-                    validationError(`Release: Invalid region ${field}`);
-                }
-            });
-            validateIsDate(release, "release_date");
-        });
-    } else {
-        validationError("No releases.")
-    }
-}
-
 /// Validates the basic structure of a save game's TOML. Assumes it exists.
 function validateSaveTOML(path) {
     let rawContents = fs.readFileSync(path);
@@ -300,6 +225,8 @@ getDirectories(config.directory).forEach(function (game) {
         let inputDirectoryGame = `${config.directory}/${game}`;
         currentGame = game;
 
+        console.info(`Validating ${currentGame}`)
+
         // Check that everything is lowercase and is a known file.
         getFiles(inputDirectoryGame).forEach(file => {
             if (config.permitted_files.indexOf(file) === -1) {
@@ -323,9 +250,6 @@ getDirectories(config.directory).forEach(function (game) {
 
         // Verify the game's image.
         validateImage(`${inputDirectoryGame}/${config.icon.filename}`, config.icon);
-
-        // Verify the game's metadata.
-        validateTOML(`${inputDirectoryGame}/${config.data.filename}`);
 
         // Verify the game's screenshots.
         validateDirImages(`${inputDirectoryGame}/${config.screenshots.dirname}`,
