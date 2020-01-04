@@ -12,7 +12,6 @@ Contributions to the yuzu Games Wiki are welcomed, as keeping all of the data up
   - [TOML](#toml)
 - [Code](#code)
   - [Icon](#icon)
-  - [Boxart](#boxart)
   - [Game Screenshots](#game-screenshots)
   - [Savefiles](#savefiles)
     - [Save Metadata](#save-metadata)
@@ -34,7 +33,7 @@ All dates follow the format `<4-Digit Year>-<2-Digit Month>-<2-Digit Day>`. For 
 Game issues can be found [here](https://github.com/yuzu-emu/yuzu/issues). The ID of the issue can be found at the end of the URL. For example, [Intermittent Eternal Freezes (softlocks) - Pokemon Let's Go](https://github.com/yuzu-emu/yuzu/issues/1935)'s ID is 1935.
 
 ### Screenshots
-The recommended application for capturing the icon and boxart is [ShareX](https://github.com/ShareX/ShareX) while we recommend using the `Capture Screenshot` feature within yuzu itself for game screenshots. Screenshots can not be compressed, and must be in the PNG format.
+The recommended application for capturing the icon is [ShareX](https://github.com/ShareX/ShareX) while we recommend using the `Capture Screenshot` feature within yuzu itself for game screenshots. Screenshots can not be compressed, and must be in the PNG format.
 
 ### Title IDs
 Title IDs can be found by right clicking the game in the game list and selecting `Copy Title ID to Clipboard`. For example, Shovel Knight: Treasure Trove's Title ID is 010057D0021E8000.
@@ -63,22 +62,6 @@ The icon for a game is located at `/<Game Name>/icon.png` (See: [Screenshots](#s
 - Take a screenshot of yuzu's library listing (See: [yuzu Version](#yuzu-version)).
 - Crop out the game icon.
 - The icon should be `256x256`.
-
-### Boxart
-The boxart for the game is located at `/<Game Name>/boxart.png`. The suggested process for getting retail boxart is:
-- Download a scan from [GameTDB](http://www.gametdb.com/), preferably with the `Nintendo Switch` logo on the right.
-- The boxart should be from the USA.
-- Downsize it to `328x300` using [PicResize](http://www.picresize.com/).
-- Compress it using [TinyPNG](https://tinypng.com/).
-
-The required process for getting eShop only boxart is:
-- Run the game in yuzu (See: [yuzu Version](#yuzu-version)).
-- Use 1x internal resolution.
-- Increase the window size of yuzu to fill most of your monitor.
-- Screenshot the title screen, which should only be the top screen.
-- Downsize it to `500x300` using [PicResize](http://www.picresize.com/).
-- Compress it using [TinyPNG](https://tinypng.com/).
-- Examples are [Fairune](https://github.com/citra-emu/citra-games-wiki/blob/master/games/fairune/boxart.png) and [Pokémon Picross](https://github.com/citra-emu/citra-games-wiki/blob/master/games/pokemon-picross/boxart.png)
 
 ### Game Screenshots
 The screenshots for the game are located in `/<Game Name>/screenshots/` (See: [Screenshots](#screenshots)). Screenshots **must** have a resolution of `1280x720`.
