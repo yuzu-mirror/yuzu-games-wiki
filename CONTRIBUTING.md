@@ -24,28 +24,13 @@ Contributions to the yuzu Games Wiki are welcomed, as keeping all of the data up
 Throughout this guide, code blocks like `<Value>` are used. This means that "Value" should be replaced by something, and the "<>" should be deleted.
 
 ### yuzu Version
-All data must be collected from the latest official yuzu Canary, downloaded from [here](https://yuzu-emu.org/downloads/).
+All data must be collected from the latest official yuzu releases, downloaded from [here](https://yuzu-emu.org/downloads/).
 
 ### Dates
 All dates follow the format `<4-Digit Year>-<2-Digit Month>-<2-Digit Day>`. For example, June 3rd 2017 would be "2017-06-03".
 
-### GitHub Issues
-Game issues can be found [here](https://github.com/yuzu-emu/yuzu/issues). The ID of the issue can be found at the end of the URL. For example, [Intermittent Eternal Freezes (softlocks) - Pokemon Let's Go](https://github.com/yuzu-emu/yuzu/issues/1935)'s ID is 1935.
-
 ### Screenshots
 The recommended application for capturing the icon is [ShareX](https://github.com/ShareX/ShareX) while we recommend using the `Capture Screenshot` feature within yuzu itself for game screenshots. Screenshots can not be compressed, and must be in the PNG format.
-
-### Title IDs
-Title IDs can be found by right clicking the game in the game list and selecting `Copy Title ID to Clipboard`. For example, Shovel Knight: Treasure Trove's Title ID is 010057D0021E8000.
-
-### TOML
-In this repo, DAT files follow the [TOML](https://github.com/toml-lang/toml) syntax, where each line consists of the creation of a piece of data. The simplest form of this is assigning a value to a key (`<Key> = <Value>`). The data types used for these `Value`s in this wiki are:
- - Booleans, true or false (Example: `true`.)
- - Integers, numbers (Example: `5`.)
- - Strings, characters with surrounding quotes (Example: `"Hi!"`.)
- - Arrays, collection of booleans, integers, or strings (Example for an array of integers: `[33, 2398, 234]`.)
-
-These key/value pairs can be grouped together using an array of tables (Example: `[[ Stuff ]]`, with the pairs on the next lines.). These can be used more than once in a TOML file.
 
 ## Code
 The code consists of the actual files in the Github repisitory. To modify them, you have to fork this repo, make your changes, and send a pull request.
