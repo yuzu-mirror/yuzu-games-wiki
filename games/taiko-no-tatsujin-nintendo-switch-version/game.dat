@@ -1,0 +1,11 @@
+title = "Taiko No Tatsujin: Nintendo Switch Version!"
+description = "Taiko no Tatsujin: Drum 'n' Fun!, released in Asia as Taiko no Tatsujin: Nintendo Switch Version![a], is a rhythm game developed and published by Bandai Namco Entertainment. It was first released in Japan and other parts of Asia in July 2018, in North America, Europe and Australia in November 2018. The title's release marks the first release of a Taiko no Tatsujin game to western audiences in over a decade."
+github_issues = []
+needs_system_files = false
+needs_shared_font = false
+game_type = "switch"
+
+[[ releases ]]
+title = "0100D9A005ED6000"
+region = "JPN"
+release_date = "2018-07-19"
