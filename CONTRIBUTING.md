@@ -8,8 +8,6 @@ Contributions to the yuzu Games Wiki are welcomed, as keeping all of the data up
   - [Dates](#dates)
   - [GitHub Issues](#github-issues)
   - [Screenshots](#screenshots)
-  - [Title IDs](#title-ids)
-  - [TOML](#toml)
 - [Code](#code)
   - [Icon](#icon)
   - [Game Screenshots](#game-screenshots)
